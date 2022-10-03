@@ -1,0 +1,471 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mert Arcan</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://kit.fontawesome.com/409201a26e.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&family=Open+Sans:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../CSS/otherscreen.css" />
+    <link rel="stylesheet" href="../CSS/mobile.css" />
+    <!--
+        #212834 -> Charcoal
+        #048BC2 -> Bright Blue
+         #0096FF -> Another Bright Blue
+         #EDEADE -> myWhite
+    -->
+    <style>
+      body {
+        font-family: "Nunito", sans-serif;
+        color: #edeade;
+        font-size: calc(15px + 0.390625vw);
+      }
+      html {
+        font-size: calc(15px + 0.390625vw);
+      }
+      p {
+        margin: 0%;
+      }
+      .fa-bounce-hover:hover {
+        -webkit-animation: fa-bounce 1s infinite linear;
+        -moz-animation: fa-bounce 1s infinite linear;
+        -o-animation: fa-bounce 1s infinite linear;
+        animation: fa-bounce 1s infinite linear;
+      }
+
+      #contactInfo {
+        color: #edeade;
+        font-family: "Comfortaa", cursive;
+        font-size: calc(20px + 0.390625vw);
+      }
+      .sideText {
+        color: #edeade;
+        font-family: "Comfortaa", cursive;
+
+        display: inline-block;
+        margin-left: 10%;
+      }
+      .contactBox {
+        display: flex;
+        align-items: center;
+      }
+
+      #sideInfo {
+        background-color: #212834;
+      }
+
+      #content {
+        color: #212834;
+      }
+
+      .myIcon {
+        color: #048bc2;
+        display: inline-block;
+      }
+      .iconText {
+        display: flex;
+        align-items: center;
+      }
+
+      .contentIcon {
+        margin-left: 5%;
+        margin-bottom: 1%;
+        color: #ffa500;
+      }
+      .company-link {
+        text-decoration: none;
+        font-style: italic;
+        color: #0096ff;
+      }
+      .headingText {
+        display: inline-block;
+        font-weight: bolder;
+        color: #048bc2;
+
+        margin-left: 1%;
+      }
+      .job {
+        margin-bottom: 1%;
+      }
+      .langSkill {
+        font-weight: 600;
+        font-style: oblique;
+        margin-left: 2%;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container-fluid">
+      <div class="row" style="background-color: #212834">
+        <div id="sideInfo" class="col-sm-3 px-0 py-0">
+          <div id="onChange">
+            <div id="profpic">
+              <img
+                id="profimg"
+                class="img-fluid"
+                src="../Images/Mert_Arcan.jpg"
+              />
+            </div>
+
+            <div id="name" style="text-align: center">
+              <p style="margin: 0%">Mert Arcan</p>
+            </div>
+            <div
+              id="sideBox"
+              class="border border-top-0 rounded-bottom"
+              style="--border-color: red"
+              ;
+            >
+              <p class="pText">Nationality: Turkish</p>
+              <p class="pText">Date Of Birth: 17/08/2001</p>
+              <p class="pText">Gender: Male</p>
+            </div>
+            <div id="contactInfo">
+              <p id="contactText">CONTACT</p>
+              <hr id="hrline" />
+              <div class="contactBox">
+                <a href="mailto:mert.arcan@tedu.edu.tr" target="_blank">
+                  <i class="myIcon fa-solid fa-envelope fa-bounce-hover"></i>
+                </a>
+                <div class="sideText" style="margin-left: 9%">
+                  mert.arcan@tedu.edu.tr
+                </div>
+              </div>
+
+              <div class="contactBox">
+                <a
+                  href="https://www.linkedin.com/in/mert-arcan-0b9a611b9/"
+                  target="_blank"
+                >
+                  <i class="myIcon fa-brands fa-linkedin fa-bounce-hover"></i>
+                </a>
+                <div class="sideText">Mert Arcan</div>
+              </div>
+              <div class="contactBox">
+                <a href="https://github.com/ArjeinN"
+                  ><i class="myIcon fa-brands fa-github fa-bounce-hover"></i
+                ></a>
+                <div class="sideText">ArjeinN</div>
+              </div>
+            </div>
+          </div>
+          <div id="mobileProfile">
+            <div class="row" style="margin: 0%; padding: 0%">
+              <div class="col-4">
+                <div id="profpic">
+                  <img
+                    id="profimg"
+                    class="img-fluid"
+                    src="../Images/Mert_Arcan.jpg"
+                  />
+                </div>
+                <p id="mobileName">Mert Arcan</p>
+              </div>
+              <div class="col-8">
+                <div id="contactInfo">
+                  <p style="color: #ffa500; margin: 0%">CONTACT</p>
+                  <hr id="hrline" />
+                  <div class="contactBox">
+                    <a
+                      href="mailto:mert.arcan@tedu.edu.tr"
+                      style="text-decoration: none"
+                      target="_blank"
+                    >
+                      <i
+                        class="myIcon fa-solid fa-envelope fa-bounce-hover"
+                      ></i>
+                    </a>
+                    <div class="sideText" style="margin-left: 9%">
+                      mert.arcan@tedu.edu.tr
+                    </div>
+                  </div>
+
+                  <div class="contactBox">
+                    <a
+                      href="https://www.linkedin.com/in/mert-arcan-0b9a611b9/"
+                      style="text-decoration: none"
+                      target="_blank"
+                    >
+                      <i
+                        class="myIcon fa-brands fa-linkedin fa-bounce-hover"
+                      ></i>
+                    </a>
+                    <div class="sideText">Mert Arcan</div>
+                  </div>
+                  <div class="contactBox">
+                    <a
+                      href="https://github.com/ArjeinN"
+                      style="text-decoration: none"
+                      ><i class="myIcon fa-brands fa-github fa-bounce-hover"></i
+                    ></a>
+                    <div class="sideText">ArjeinN</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-sm-9 order-sm-first p-0">
+          <div id="mobileContentStyle">
+            <div id="content">
+              <div class="contentBox">
+                <div class="iconText">
+                  <i
+                    class="fa-solid fa-user fa-2x contentIcon"
+                    aria-hidden="true"
+                  >
+                  </i>
+                  <p class="headingText">PROFILE</p>
+                </div>
+                <div
+                  class="border-start border-bottom border-3 border-white box"
+                >
+                  <p>
+                    I am an honored computer engineering senior student with an
+                    applied data analytics minor in TED University. My computer
+                    engineering degree combined with hard work and experience
+                    provided me with a great foundation of knowledge and skills.
+                    I am a motivated self-learner who looks forward to acquire
+                    new qualifications and improve himself. I love spending my
+                    time learning new technologies. Besides that, I am a
+                    confident person with high energy and a lot of ambition to
+                    succeed. I am a great communicator and enjoy being in a
+                    team.
+                  </p>
+                </div>
+              </div>
+              <div class="contentBox">
+                <div class="iconText">
+                  <i class="fa fa-briefcase fa-2x contentIcon"> </i>
+                  <p class="headingText">WORK EXPERIENCE</p>
+                </div>
+
+                <div
+                  class="border-start border-bottom border-3 border-white box"
+                >
+                  <p class="fw-semibold job">Front-end Developer (Intern)</p>
+                  <div class="d-flex justify-content-between">
+                    <div>
+                      <a
+                        class="company-link"
+                        href="https://www.fdnsoft.com"
+                        target="_blank"
+                        >FDNSoft</a
+                      >
+                    </div>
+                    <div class="date">[ 24/06/2022 – 29/07/2022 ]</div>
+                  </div>
+                  <div>
+                    <ul style="list-style-type: circle">
+                      <li>Learned Flutter</li>
+                      <li>Learned Dart</li>
+                      <li>Add Firebase to a Flutter app</li>
+                      <li>Designed a Login / Register Interface</li>
+                      <li>Prepared a document on Deep Links</li>
+                      <li>Used Firestore</li>
+                    </ul>
+                  </div>
+
+                  <p class="fw-semibold job">System Engineer (Intern)</p>
+                  <div class="d-flex justify-content-between">
+                    <div>
+                      <a
+                        class="company-link"
+                        href="https://solus.com.tr/tr/"
+                        target="_blank"
+                        >SOLUS</a
+                      >
+                    </div>
+                    <div class="date">[ 31/08/2021 – 27/09/2021 ]</div>
+                  </div>
+                  <div>
+                    <ul style="list-style-type: circle">
+                      <li>Learned Red Hat Linux (Centos8)</li>
+                      <li>Hosted Nginx and Apache web servers</li>
+                      <li>Used Wordpress</li>
+                      <li>Learned Logical Volume Management</li>
+                      <li>Configurated Firewall</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div class="contentBox">
+                <div class="iconText">
+                  <i class="fa fa-school fa-2x contentIcon"> </i>
+                  <p class="headingText">EDUCATION</p>
+                </div>
+                <div
+                  class="border-start border-bottom border-3 border-white box"
+                >
+                  <p class="fw-semibold job">Computer Engineering Student</p>
+                  <div class="d-flex justify-content-between">
+                    <div>
+                      <a
+                        class="company-link"
+                        href="https://www.tedu.edu.tr"
+                        target="_blank"
+                        >TED University</a
+                      >
+                    </div>
+                    <div class="date">[ 09/09/2019 – Current ]</div>
+                  </div>
+                  <p><span style="font-weight: bold">GPA:</span> 3.34</p>
+                  <ul style="list-style-type: circle">
+                    <li>Java</li>
+                    <li>C</li>
+                    <li>Electrical Circuits and Logic Design</li>
+                    <li>Relational Databases</li>
+                    <li>Data Structures and Algorithms</li>
+                    <li>Software Engineering</li>
+                    <li>Computer Organization</li>
+                    <li>Statistical Inference Methods</li>
+                    <li>Assembly Language</li>
+                    <li>Calculus</li>
+                    <li>PostgreSQL</li>
+                    <li>JavaScript</li>
+                    <li>Security and Cryptography</li>
+                  </ul>
+                  <p class="fw-semibold job">
+                    Applied Data Science (Secondary Field)
+                  </p>
+                  <div class="d-flex justify-content-between">
+                    <div>
+                      <a
+                        class="company-link"
+                        href="https://www.tedu.edu.tr"
+                        target="_blank"
+                        >TED University</a
+                      >
+                    </div>
+                    <div class="date">[ 04/10/2021 – Current ]</div>
+                  </div>
+                  <ul style="list-style-type: circle">
+                    <li>R</li>
+                    <li>Python</li>
+                    <li>Data Mining</li>
+                    <li>Machine Learning</li>
+                    <li>Deep Learning</li>
+                  </ul>
+                  <p class="fw-semibold job">Graduated</p>
+                  <div class="d-flex justify-content-between">
+                    <div>
+                      <a
+                        class="company-link"
+                        href="https://www.tedankara.k12.tr"
+                        target="_blank"
+                        >TED Ankara College</a
+                      >
+                    </div>
+                    <div class="date">[ 26/08/2015 – 14/06/2019 ]</div>
+                  </div>
+                </div>
+              </div>
+              <div class="contentBox">
+                <div class="iconText">
+                  <i class="fa-solid fa-laptop fa-2x contentIcon"> </i>
+                  <p class="headingText">DIGITAL SKILLS</p>
+                </div>
+                <div
+                  class="border-start border-bottom border-3 border-white box"
+                >
+                  <div class="row">
+                    <div class="col-sm-4 p-0">
+                      <ul style="list-style-type: circle">
+                        <li>Java</li>
+                        <li>Python</li>
+                        <li>JavaScript</li>
+                        <li>C</li>
+                        <li>Dart</li>
+                        <li>R</li>
+                      </ul>
+                    </div>
+                    <div class="col-sm-4 p-0">
+                      <ul style="list-style-type: circle">
+                        <li>Flutter</li>
+                        <li>Bootstrap</li>
+                        <li>PostgreSQL</li>
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>Linux</li>
+                      </ul>
+                    </div>
+                    <div class="col-sm-4 p-0">
+                      <ul style="list-style-type: circle">
+                        <li>Centos8</li>
+                        <li>Kali</li>
+                        <li>Ubuntu</li>
+                        <li>Object-Oriented Programming</li>
+                        <li>Software Engineering</li>
+                        <li>Design Patterns</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="contentBox">
+                <div class="iconText">
+                  <i
+                    class="fa-solid fa-globe fa-2x contentIcon"
+                    aria-hidden="true"
+                  >
+                  </i>
+                  <p class="headingText">LANGUAGE SKILLS</p>
+                </div>
+                <div
+                  class="border-start border-bottom border-3 border-white box"
+                >
+                  <div class="row">
+                    <p style="font-weight: 1000">English</p>
+                    <div class="col-6">
+                      <p class="langSkill" style="display: inline">
+                        Listening:
+                      </p>
+                      <p style="display: inline-block">C1</p>
+                      <p class="langSkill" style="display: inline">Reading:</p>
+                      <p style="display: inline-block">C1</p>
+                    </div>
+                    <div class="col-6">
+                      <p class="langSkill" style="display: inline">Writing:</p>
+                      <p style="display: inline-block">C1</p>
+                      <p class="langSkill" style="display: inline">Speaking:</p>
+                      <p style="display: inline-block">C1</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
